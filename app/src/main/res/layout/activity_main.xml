@@ -46,10 +46,10 @@
         android:text="Sobre mim"
         android:textColor="@color/black"
         app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@id/sobre"
         app:layout_constraintBottom_toBottomOf="@id/sobre"
         android:textSize="30sp"
+        android:layout_marginTop="50dp"
         />
 
     <TextView
@@ -58,10 +58,10 @@
         android:text="Minha rotina"
         android:textColor="@color/black"
         app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@id/rotina"
         app:layout_constraintBottom_toBottomOf="@id/rotina"
         android:textSize="30sp"
+        android:layout_marginTop="50dp"
 
         />
 
@@ -71,10 +71,10 @@
         android:text="Contatos"
         android:textColor="@color/black"
         app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@id/contatos"
         app:layout_constraintBottom_toBottomOf="@id/contatos"
         android:textSize="30sp"
+        android:layout_marginTop="50dp"
         />
 
     <androidx.constraintlayout.widget.Guideline
