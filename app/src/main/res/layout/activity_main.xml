@@ -9,70 +9,73 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/sobre"
+        android:id="@+id/imgSobre"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:src="@drawable/redesocial"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/rotina"
+        app:layout_constraintBottom_toTopOf="@id/imgRotina"
         />
 
     <ImageView
-        android:id="@+id/rotina"
+        android:id="@+id/imgRotina"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:src="@drawable/estilodevida"
-        app:layout_constraintTop_toBottomOf="@id/sobre"
+        app:layout_constraintTop_toBottomOf="@id/imgSobre"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintBottom_toTopOf="@id/contatos"/>
+        app:layout_constraintBottom_toTopOf="@id/imgContatos"/>
 
     <ImageView
-        android:id="@+id/contatos"
+        android:id="@+id/imgContatos"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:src="@drawable/telefone"
-        app:layout_constraintTop_toBottomOf="@id/rotina"
+        app:layout_constraintTop_toBottomOf="@id/imgRotina"
         app:layout_constraintEnd_toStartOf="@id/guideline2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         />
 
     <TextView
+        android:id="@+id/txtSobre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sobre mim"
         android:textColor="@color/black"
         app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@id/sobre"
-        app:layout_constraintBottom_toBottomOf="@id/sobre"
+        app:layout_constraintTop_toTopOf="@id/imgSobre"
+        app:layout_constraintBottom_toBottomOf="@id/imgSobre"
         android:textSize="30sp"
         android:layout_marginTop="50dp"
         />
 
     <TextView
+        android:id="@+id/txtRotina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Minha rotina"
         android:textColor="@color/black"
         app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@id/rotina"
-        app:layout_constraintBottom_toBottomOf="@id/rotina"
+        app:layout_constraintTop_toTopOf="@id/imgRotina"
+        app:layout_constraintBottom_toBottomOf="@id/imgRotina"
         android:textSize="30sp"
         android:layout_marginTop="50dp"
 
         />
 
     <TextView
+        android:id="@+id/txtContatos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contatos"
         android:textColor="@color/black"
         app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@id/contatos"
-        app:layout_constraintBottom_toBottomOf="@id/contatos"
+        app:layout_constraintTop_toTopOf="@id/imgContatos"
+        app:layout_constraintBottom_toBottomOf="@id/imgContatos"
         android:textSize="30sp"
         android:layout_marginTop="50dp"
         />

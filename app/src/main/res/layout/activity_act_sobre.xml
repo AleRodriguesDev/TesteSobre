@@ -1,0 +1,41 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".actSobre">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre mim:"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profissional de TI com experiência como auxiliar de TI, atuando na realização de manutenções gerais e fornecendo suporte técnico.
+
+Estou focado em desenvolvimento Android e tenho dedicado tempo e esforço no estudo de Kotlin, uma linguagem moderna e versátil. Estou constantemente atualizando minhas habilidades técnicas para acompanhar as últimas tendências e tecnologias no desenvolvimento de aplicativos móveis.
+
+Além disso, estou cursando Sistemas de Informação na Anhembi Morumbi, aprimorando minha base de conhecimentos em TI, análise de sistemas e gerenciamento de projetos. Estou adquirindo uma visão abrangente sobre as melhores práticas do setor, buscando aplicar esse conhecimento teórico na prática.
+
+Sou um profissional dedicado, proativo e comprometido em fornecer soluções eficazes para os desafios do dia a dia. Trabalho bem em equipe, colaborando com colegas de trabalho para atingir objetivos comuns. Estou sempre disposto a aprender e me adaptar a novas tecnologias para impulsionar a produtividade e a inovação."
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"/>
+
+
+ </LinearLayout>
+</ScrollView>

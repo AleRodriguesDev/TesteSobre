@@ -1,0 +1,46 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".actRotina">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minha rotina:"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+Com uma rotina equilibrada e focada no autodesenvolvimento, minha vida diária reflete um comprometimento com o trabalho, estudo, saúde e bem-estar.
+
+Minhas manhãs começam cedo, pois acredito na importância de começar o dia com energia e determinação. Levanto-me cedo para me preparar para o trabalho, ciente de que cada dia é uma nova oportunidade para contribuir e aprender. Aproveito esse tempo matinal para organizar meu dia, definir metas e prioridades, garantindo que estou preparado para enfrentar os desafios que possam surgir.
+
+Durante o dia, mergulho em minhas responsabilidades como auxiliar de TI e analista de sistemas. Dedico-me a realizar manutenções, solucionar problemas e apoiar as necessidades dos usuários. Busco sempre aprimorar minhas habilidades técnicas e aprofundar meu conhecimento nas áreas relevantes do campo de TI.
+
+Após o expediente, minhas noites são dedicadas aos estudos. Como estou cursando Sistemas de Informação na Anhembi Morumbi, aproveito esse tempo para aprofundar meus conhecimentos, revisar conceitos e me manter atualizado sobre as últimas tendências em tecnologia. Em particular, dedico esforços ao estudo da linguagem Kotlin para o desenvolvimento Android, reconhecendo seu potencial para criar aplicativos inovadores.
+
+Além do trabalho e dos estudos, entendo que cuidar de minha saúde física e mental é fundamental para alcançar um equilíbrio satisfatório. Para isso, incluo na minha rotina atividades físicas, como treinamento regular em sessões de fisioterapia ou ao ar livre. Valorizo a importância de uma alimentação equilibrada e nutritiva, procurando manter uma dieta saudável e consciente.
+
+Essa rotina dinâmica e focada me permite buscar o crescimento pessoal e profissional de forma consistente. Estou comprometido em enfrentar desafios, adquirir novas habilidades e desenvolver relacionamentos significativos em minha carreira. Acredito que uma rotina equilibrada e produtiva é essencial para alcançar o sucesso e o bem-estar em todas as áreas da minha vida."
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</ScrollView>
