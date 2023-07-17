@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.imgSobre.setOnClickListener(){
-            val intent
+            val intent = new
         }
     }
 }
