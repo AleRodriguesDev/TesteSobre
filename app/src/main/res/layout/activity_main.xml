@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imgSobre"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/redesocial"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/imgRotina"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/estilodevida"
         app:layout_constraintTop_toBottomOf="@id/imgSobre"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,8 +31,8 @@
 
     <ImageView
         android:id="@+id/imgContatos"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/telefone"
         app:layout_constraintTop_toBottomOf="@id/imgRotina"
         app:layout_constraintEnd_toStartOf="@id/guideline2"
@@ -49,7 +49,7 @@
         app:layout_constraintLeft_toRightOf="@id/guideline2"
         app:layout_constraintTop_toTopOf="@id/imgSobre"
         app:layout_constraintBottom_toBottomOf="@id/imgSobre"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:layout_marginTop="50dp"
         />
 
@@ -62,7 +62,7 @@
         app:layout_constraintLeft_toRightOf="@id/guideline2"
         app:layout_constraintTop_toTopOf="@id/imgRotina"
         app:layout_constraintBottom_toBottomOf="@id/imgRotina"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:layout_marginTop="50dp"
 
         />
@@ -76,7 +76,7 @@
         app:layout_constraintLeft_toRightOf="@id/guideline2"
         app:layout_constraintTop_toTopOf="@id/imgContatos"
         app:layout_constraintBottom_toBottomOf="@id/imgContatos"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:layout_marginTop="50dp"
         />
 
