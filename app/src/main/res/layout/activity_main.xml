@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
@@ -13,31 +13,8 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/redesocial"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/imgRotina"
-        />
-
-    <ImageView
-        android:id="@+id/imgRotina"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/estilodevida"
-        app:layout_constraintTop_toBottomOf="@id/imgSobre"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintBottom_toTopOf="@id/imgContatos"/>
-
-    <ImageView
-        android:id="@+id/imgContatos"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/telefone"
-        app:layout_constraintTop_toBottomOf="@id/imgRotina"
-        app:layout_constraintEnd_toStartOf="@id/guideline2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
         />
 
     <TextView
@@ -46,12 +23,18 @@
         android:layout_height="wrap_content"
         android:text="Sobre mim"
         android:textColor="@color/black"
-        app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@id/imgSobre"
-        app:layout_constraintBottom_toBottomOf="@id/imgSobre"
+        android:layout_gravity="center"
         android:textSize="20sp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         />
+
+    <ImageView
+        android:id="@+id/imgRotina"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/estilodevida"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
 
     <TextView
         android:id="@+id/txtRotina"
@@ -59,13 +42,17 @@
         android:layout_height="wrap_content"
         android:text="Minha rotina"
         android:textColor="@color/black"
-        app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@id/imgRotina"
-        app:layout_constraintBottom_toBottomOf="@id/imgRotina"
         android:textSize="20sp"
-        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
 
-        />
+    <ImageView
+        android:id="@+id/imgContatos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/telefone"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
 
     <TextView
         android:id="@+id/txtContatos"
@@ -73,19 +60,8 @@
         android:layout_height="wrap_content"
         android:text="Contatos"
         android:textColor="@color/black"
-        app:layout_constraintLeft_toRightOf="@id/guideline2"
-        app:layout_constraintTop_toTopOf="@id/imgContatos"
-        app:layout_constraintBottom_toBottomOf="@id/imgContatos"
         android:textSize="20sp"
-        android:layout_marginTop="50dp"
-        />
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

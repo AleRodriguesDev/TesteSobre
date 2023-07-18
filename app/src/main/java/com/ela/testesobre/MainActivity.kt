@@ -16,14 +16,17 @@ class MainActivity : AppCompatActivity() {
         binding.imgSobre.setOnClickListener(){
             val intent = Intent(this, actSobre::class.java)
             startActivity(intent)
+            finish()
         }
         binding.imgRotina.setOnClickListener(){
             val intent = Intent(this, actRotina::class.java)
             startActivity(intent)
+            finish()
         }
         binding.imgContatos.setOnClickListener(){
             val intent = Intent(this, actContatos::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
